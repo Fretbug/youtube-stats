@@ -8,6 +8,7 @@ COPY package.json .
 
 RUN npm install
 
+# copy from the local directory
 COPY . .
 
 EXPOSE 3000
